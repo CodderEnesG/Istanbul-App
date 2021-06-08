@@ -1,12 +1,6 @@
-
-
-// const secret = 'test';
-//kullanıcı bişey yapmak istersen delete vs önce bu kod çalışır 
-
-
 import jwt from "jsonwebtoken";
 
-
+const secret = 'test';
 
 const auth = async (req, res, next) => {
   try {
