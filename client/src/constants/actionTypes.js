@@ -9,6 +9,8 @@ export const START_LOADING = 'START_LOADING';
 
 
 export const LIKE = 'LIKE';
+export const COMMENT = 'COMMENT';
+
 
 
 export const AUTH = "AUTH"
